@@ -1,0 +1,35 @@
+7.1 Write a program that prompts for a file name, then opens that file and reads through the file, and print the contents of the file in upper case. Use the file words.txt to produce the output below.
+You can download the sample data at http://www.py4e.com/code3/words.txt
+
+# Use the file name mbox-short.txt as the file name
+cunt = 0
+tot = 0
+ans = 0
+# Use the file name mbox-short.txt as the file name
+fname = raw_input("Enter file name: ")
+fh = open(fname)
+for line in fh:
+    if not line.startswith("X-DSPAM-Confidence:") : continue
+    cunt = cunt + 1
+    num = float(line[line.find(":") + 1 : ])
+    tot = num + tot
+ans = tot / cunt    
+print ("Average spam confidence:",ans)
+
+# Use the file name mbox-short.txt as the file name
+cunt = 0
+tot = 0
+ans = 0
+
+# Use the file name mbox-short.txt as the file name
+fname = raw_input("Enter file name: ")
+
+fh = open(fname)
+for line in fh:
+    if not line.startswith("X-DSPAM-Confidence:") : continue
+    cunt = cunt + 1
+    num = float(line[line.find(":") + 1 : ])
+    tot = num + tot
+ans = tot / cunt    
+
+print ("Average spam confidence:",ans)
