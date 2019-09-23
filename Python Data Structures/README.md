@@ -8,3 +8,7 @@ This course will introduce the core data structures of the Python programming la
 
 
 You passed this course! Your grade is 93.60%.
+
+NOTICE: Successfully Passed; link to Python Data Structures Certificate: 
+
+https://www.coursera.org/account/accomplishments/certificate/EFK2A8MTULWG
