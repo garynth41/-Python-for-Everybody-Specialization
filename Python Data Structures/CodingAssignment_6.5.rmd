@@ -16,3 +16,4 @@ pos = text.find(":")
 data = text[pos+2:]
 5
 print(float(data))
+ 
