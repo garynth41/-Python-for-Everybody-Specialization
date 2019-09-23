@@ -35,7 +35,7 @@ gsilver@umich.edu
 zqian@umich.edu
 gsilver@umich.edu
 wagnermr@iupui.edu
-zqian@umich.edu
+zqian@umich.edu 
 antranig@caret.cam.ac.uk
 gopal.ramasammycook@gmail.com
 david.horwitz@uct.ac.za
