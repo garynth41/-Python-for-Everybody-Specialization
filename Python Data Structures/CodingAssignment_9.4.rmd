@@ -7,7 +7,7 @@ handle = open(name)
 text = handle.read()
 #words = text.split() 
 
-words = list()
+words = list() 
 
 for line in handle:
     if not line.startswith("From:") : continue
